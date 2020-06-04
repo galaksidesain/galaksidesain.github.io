@@ -48,6 +48,13 @@
 
         <!-- PWA Support -->
         <link rel="manifest" href="manifest.json">
+        <script>
+            navigator.serviceWorker &&
+            navigator.serviceWorker.register('SW.js').then(function (registration)
+            {
+            });
+        </script>
+        <!-- End PWA Support -->
 </head>
 
 <body id="page-top">
